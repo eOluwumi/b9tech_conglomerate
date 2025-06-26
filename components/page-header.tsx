@@ -45,7 +45,7 @@ export function PageHeader({
           </div>
           <div className="text-center">
             <h2 className={`text-2xl font-bold bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>
-              B9Tech Consults
+              B9TECH CONSULTS
             </h2>
             <p className="text-emerald-600 dark:text-emerald-400 font-medium">Ethical AI Solutions</p>
           </div>

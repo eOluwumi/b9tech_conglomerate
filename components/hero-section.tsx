@@ -69,7 +69,7 @@ export function HeroSection() {
             <div className="text-center">
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
                 <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
-                  B9Tech Consults
+                  B9TECH CONSULTS
                 </span>
               </h1>
               <p className="text-emerald-300 font-semibold text-lg">Ethical AI Solutions</p>
@@ -100,7 +100,7 @@ export function HeroSection() {
               AI Solutions
             </h2>
             <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-              B9Tech Consults pioneers <span className="text-emerald-400 font-semibold">Benign Technology</span> - AI
+              B9TECH CONSULTS pioneers <span className="text-emerald-400 font-semibold">Benign Technology</span> - AI
               systems that protect, empower, and serve humanity in our rapidly evolving digital world.
             </p>
           </div>

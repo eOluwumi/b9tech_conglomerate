@@ -55,7 +55,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           </div>
           <div className="flex flex-col">
             <span className="text-2xl font-bold text-sidebar-foreground leading-tight">B9Tech</span>
-            <span className="text-xl font-black text-emerald-600 dark:text-emerald-400 leading-tight tracking-wide">
+            <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400 leading-tight tracking-wide">
               CONSULTS
             </span>
           </div>

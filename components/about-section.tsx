@@ -17,7 +17,7 @@ export function AboutSection() {
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 bg-emerald-100 dark:bg-emerald-900/30 px-4 py-2 rounded-full mb-6">
             <Award className="h-4 w-4 text-emerald-600" />
-            <span className="text-emerald-700 dark:text-emerald-300 font-medium">About B9Tech Consults</span>
+            <span className="text-emerald-700 dark:text-emerald-300 font-medium">About B9TECH CONSULTS</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-slate-900 to-emerald-600 bg-clip-text text-transparent dark:from-white dark:to-emerald-400">
             Pioneering Ethical AI
@@ -85,15 +85,16 @@ export function AboutSection() {
                 {/* Hero Image */}
                 <div className="relative h-80 overflow-hidden">
                   <Image
-                    src="/images/enoch-creative.jpg"
-                    alt="Enoch Oluwumi - CEO"
+                    src="/images/enoch-professional.jpg"
+                    alt="Enoch Oluwumi - Co-founder & CEO"
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-top"
+                    style={{ objectPosition: "50% 20%" }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   <div className="absolute bottom-6 left-6 text-white">
                     <h3 className="text-2xl font-bold mb-1">Enoch Oluwumi</h3>
-                    <p className="text-emerald-300 font-medium">Founder & Chief Executive Officer</p>
+                    <p className="text-emerald-300 font-medium">Co-founder & Chief Executive Officer</p>
                   </div>
                 </div>
 

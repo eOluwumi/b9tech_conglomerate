@@ -48,8 +48,8 @@ export default function HomePage() {
               <Image src="/images/b9-logo-main.png" alt="B9Tech Logo" fill className="object-contain p-1" />
             </div>
             <div className="hidden sm:block">
-              <span className="text-xl font-bold text-foreground">B9Tech</span>
-              <span className="text-sm font-semibold text-emerald-600 dark:text-emerald-400 ml-2">Consults</span>
+              <span className="text-xl font-bold text-foreground">B9TECH</span>
+              <span className="text-xl font-bold text-emerald-600 dark:text-emerald-400 ml-2">CONSULTS</span>
             </div>
           </div>
 
