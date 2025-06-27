@@ -14,12 +14,12 @@ export function Footer() {
 
       <div className="relative z-10 py-16 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-12 mb-16">
+          <div className="grid md:grid-cols-3 gap-12 mb-16">
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-4 mb-6">
                 <div className="relative h-12 w-12 rounded-xl bg-gradient-to-br from-emerald-500 to-blue-500 p-2">
-                  <Image src="/images/b9-logo-main.png" alt="B9Tech Logo" fill className="object-contain p-1" />
+                  <Image src="/images/b9-logo-main.png" alt="B9TECH Logo" fill className="object-contain p-1" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-white">B9TECH CONSULTS</h3>
@@ -78,7 +78,7 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* Contact & CEO */}
+            {/* Contact */}
             <div>
               <h4 className="font-bold text-white mb-6">Contact</h4>
               <div className="space-y-4 text-slate-400">
@@ -91,34 +91,6 @@ export function Footer() {
                   +234 812 848 1777
                 </p>
                 <p>Lagos, Nigeria 🇳🇬</p>
-
-                {/* CEO Section */}
-                <div className="mt-6 pt-4 border-t border-white/20">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="relative h-10 w-10 rounded-full overflow-hidden border-2 border-emerald-400">
-                      <Image
-                        src="/images/enoch-professional.jpg"
-                        alt="Enoch Oluwumi"
-                        fill
-                        className="object-cover object-top"
-                        style={{ objectPosition: "50% 20%" }}
-                      />
-                    </div>
-                    <div>
-                      <p className="text-white font-medium text-sm">Enoch Oluwumi</p>
-                      <p className="text-emerald-400 text-xs">Co-founder & CEO</p>
-                    </div>
-                  </div>
-                  <a
-                    href="https://www.linkedin.com/in/enoch-oluwumi-b54695120/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                    Connect on LinkedIn
-                  </a>
-                </div>
               </div>
             </div>
           </div>

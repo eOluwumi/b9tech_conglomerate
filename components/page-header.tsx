@@ -41,7 +41,7 @@ export function PageHeader({
         {/* Logo and Branding */}
         <div className="flex flex-col items-center space-y-4 mb-8">
           <div className="relative w-20 h-20">
-            <Image src="/images/b9-logo-main.png" alt="B9Tech Logo" fill className="object-contain" />
+            <Image src="/images/b9-logo-main.png" alt="B9TECH Logo" fill className="object-contain" />
           </div>
           <div className="text-center">
             <h2 className={`text-2xl font-bold bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>

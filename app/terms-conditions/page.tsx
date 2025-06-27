@@ -19,7 +19,7 @@ export default function TermsConditionsPage() {
 
           <PageHeader
             title="Terms and Conditions"
-            subtitle="B9Tech Consult - Operator of BringBackBarter (B3) Platform"
+            subtitle="B9TECH Consult - Operator of BringBackBarter (B3) Platform"
             description="Last Updated: June 21, 2025"
             badgeText="Legal Documents"
             badgeIcon={<FileText className="h-4 w-4 text-emerald-600" />}
@@ -31,7 +31,7 @@ export default function TermsConditionsPage() {
             <div className="prose prose-slate dark:prose-invert max-w-none">
               <p className="text-lg leading-relaxed">
                 These Terms and Conditions of Use ("Terms") constitute a binding legal agreement between you (whether as
-                an individual or as a duly authorized representative of a legal entity) and B9Tech Consult ("B9Tech",
+                an individual or as a duly authorized representative of a legal entity) and B9TECH Consult ("B9TECH",
                 "we", "us", or "our"), the sole proprietor and operator of the digital barter and exchange platform
                 known as BringBackBarter ("B3").
               </p>
@@ -121,7 +121,7 @@ export default function TermsConditionsPage() {
               <ul className="space-y-2">
                 <li>a) You retain ownership of content you upload (images, descriptions, etc.).</li>
                 <li>
-                  b) You grant B9Tech a limited license to use, display, and distribute your content to facilitate your
+                  b) You grant B9TECH a limited license to use, display, and distribute your content to facilitate your
                   use of the platform.
                 </li>
                 <li>c) We reserve the right to remove content violating our standards.</li>
@@ -131,7 +131,7 @@ export default function TermsConditionsPage() {
               <ul className="space-y-2">
                 <li>a) Users may leave reviews after transactions.</li>
                 <li>b) Reviews must be truthful and not defamatory.</li>
-                <li>c) B9Tech reserves the right to moderate or remove abusive content.</li>
+                <li>c) B9TECH reserves the right to moderate or remove abusive content.</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-8 mb-4">
@@ -154,7 +154,7 @@ export default function TermsConditionsPage() {
 
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-8 mb-4">XII. Disclaimers</h2>
               <ul className="space-y-2">
-                <li>a) B9Tech provides the platform "as-is" without warranties of any kind.</li>
+                <li>a) B9TECH provides the platform "as-is" without warranties of any kind.</li>
                 <li>b) We do not guarantee continuous availability, error-free operation, or perfect security.</li>
                 <li>c) We disclaim all liability for user interactions, content, or transactions.</li>
               </ul>
@@ -163,13 +163,13 @@ export default function TermsConditionsPage() {
                 XIII. Limitation of Liability
               </h2>
               <p>
-                To the maximum extent permitted by law, B9Tech will not be liable for any direct, indirect, incidental,
+                To the maximum extent permitted by law, B9TECH will not be liable for any direct, indirect, incidental,
                 or consequential damages arising from your use of the Service.
               </p>
 
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-8 mb-4">XIV. Indemnity</h2>
               <p>
-                You agree to defend, indemnify, and hold harmless B9Tech, its affiliates, and team from any claims or
+                You agree to defend, indemnify, and hold harmless B9TECH, its affiliates, and team from any claims or
                 damages arising from:
               </p>
               <ul className="space-y-2">
@@ -201,7 +201,7 @@ export default function TermsConditionsPage() {
               <div className="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 mt-8">
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">XVIII. Agreement</h3>
                 <p className="text-slate-700 dark:text-slate-300">
-                  By using B3 (BarterNaija) under B9Tech Consult, you agree to these Terms of Service.
+                  By using B3 (BarterNaija) under B9TECH Consult, you agree to these Terms of Service.
                 </p>
               </div>
             </div>

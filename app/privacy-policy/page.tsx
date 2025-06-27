@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
 
           <PageHeader
             title="Privacy Policy"
-            subtitle="B9Tech Consult / BringBackBarter (B3 Initiative)"
+            subtitle="B9TECH Consult / BringBackBarter (B3 Initiative)"
             description="Effective Date: June 21, 2025"
             badgeText="Privacy & Data Protection"
             badgeIcon={<Shield className="h-4 w-4 text-blue-600" />}
@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
           <CardContent className="p-8 space-y-8">
             <div className="prose prose-slate dark:prose-invert max-w-none">
               <p className="text-lg leading-relaxed">
-                B9Tech Consult ("we," "our," or "us") respects your privacy and is committed to protecting your personal
+                B9TECH Consult ("we," "our," or "us") respects your privacy and is committed to protecting your personal
                 data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when
                 you visit or use the BringBackBarter (B3) platform, including our website [b9techafrica.com] and
                 associated services (the "Service"). This policy complies with the Nigeria Data Protection Regulation
@@ -187,7 +187,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="space-y-2 text-slate-700 dark:text-slate-300">
                   <p>
-                    <strong>B9Tech Consult</strong>
+                    <strong>B9TECH Consult</strong>
                   </p>
                   <p>
                     Email:{" "}

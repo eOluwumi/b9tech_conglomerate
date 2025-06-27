@@ -64,7 +64,7 @@ export function HeroSection() {
         <div className="mb-12">
           <div className="flex flex-col items-center space-y-6">
             <div className="relative w-32 h-32 mx-auto transform hover:scale-110 transition-transform duration-300">
-              <Image src="/images/b9-logo-main.png" alt="B9Tech Logo" fill className="object-contain drop-shadow-2xl" />
+              <Image src="/images/b9-logo-main.png" alt="B9TECH Logo" fill className="object-contain drop-shadow-2xl" />
             </div>
             <div className="text-center">
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">

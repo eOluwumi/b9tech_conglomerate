@@ -44,12 +44,23 @@ export default function HomePage() {
               isScrolled ? "opacity-100 scale-100" : "opacity-0 scale-95"
             }`}
           >
-            <div className="relative h-10 w-10 rounded-lg bg-gradient-to-br from-emerald-500 to-blue-500 p-1 shadow-lg">
-              <Image src="/images/b9-logo-main.png" alt="B9Tech Logo" fill className="object-contain p-1" />
+            <div className="relative h-12 w-12 rounded-xl bg-gradient-to-br from-emerald-500 via-blue-500 to-purple-500 p-2 shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300">
+              <Image
+                src="/images/b9-logo-main.png"
+                alt="B9TECH Logo"
+                fill
+                className="object-contain p-1 drop-shadow-sm"
+              />
             </div>
             <div className="hidden sm:block">
-              <span className="text-xl font-bold text-foreground">B9TECH</span>
-              <span className="text-xl font-bold text-emerald-600 dark:text-emerald-400 ml-2">CONSULTS</span>
+              <div className="flex flex-col">
+                <span className="text-xl font-black bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 dark:from-emerald-400 dark:via-blue-400 dark:to-purple-400 bg-clip-text text-transparent tracking-tight hover:scale-105 transition-transform duration-300 cursor-default">
+                  B9TECH
+                </span>
+                <span className="text-lg font-bold bg-gradient-to-r from-purple-600 via-emerald-600 to-blue-600 dark:from-purple-400 dark:via-emerald-400 dark:to-blue-400 bg-clip-text text-transparent tracking-wide hover:scale-105 transition-transform duration-300 cursor-default -mt-1">
+                  CONSULTS
+                </span>
+              </div>
             </div>
           </div>
 
