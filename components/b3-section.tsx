@@ -112,7 +112,7 @@ export function B3Section() {
                   className="w-full bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-semibold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                   asChild
                 >
-                  <a href="https://b9tech.africa" target="_blank" rel="noopener noreferrer">
+                  <a href="https://barternaija.com.ng" target="_blank" rel="noopener noreferrer">
                     <Sparkles className="mr-2 h-5 w-5" />
                     Experience B3 Platform
                     <ExternalLink className="ml-2 h-5 w-5" />
