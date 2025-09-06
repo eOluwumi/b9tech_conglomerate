@@ -101,11 +101,22 @@ export function AboutSection() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white"
+                asChild
               >
-                <Linkedin className="mr-2 h-5 w-5" />
-                Connect on LinkedIn
+                <a
+                  href="https://www.linkedin.com/in/enoch-oluwumi-62aa34382/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  Connect on LinkedIn
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 bg-transparent"
+              >
                 <Mail className="mr-2 h-5 w-5" />
                 Send Message
               </Button>
