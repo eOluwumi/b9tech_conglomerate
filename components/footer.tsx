@@ -26,6 +26,12 @@ export function Footer() {
               <a href="/terms-conditions" className="text-slate-400 hover:text-white transition-colors">
                 Terms & Conditions
               </a>
+              <a
+                href="https://www.linkedin.com/in/enoch-oluwumi-62aa34382/"
+                className="text-slate-400 hover:text-white transition-colors"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
 
