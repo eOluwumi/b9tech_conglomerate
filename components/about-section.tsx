@@ -60,7 +60,7 @@ export function AboutSection() {
               <p className="text-xl text-emerald-600 dark:text-emerald-400 font-semibold mb-6">
                 Co-founder & Chief Executive Officer
               </p>
-              <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
                 Building ethical AI for Africa and the world
               </p>
             </div>
@@ -101,16 +101,11 @@ export function AboutSection() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white"
-                onClick={() => window.open("https://www.linkedin.com/in/enoch-oluwumi-62aa34382/", "_blank")}
               >
                 <Linkedin className="mr-2 h-5 w-5" />
                 Connect on LinkedIn
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 bg-transparent"
-              >
+              <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50">
                 <Mail className="mr-2 h-5 w-5" />
                 Send Message
               </Button>
