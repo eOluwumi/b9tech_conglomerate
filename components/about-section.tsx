@@ -103,11 +103,7 @@ export function AboutSection() {
                 className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white"
                 asChild
               >
-                <a
-                  href="https://www.linkedin.com/in/enoch-oluwumi-62aa34382/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   Connect on LinkedIn
                 </a>

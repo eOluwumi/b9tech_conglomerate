@@ -38,7 +38,7 @@ export function Footer() {
                   <Mail className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/enoch-oluwumi-62aa34382/"
+                  href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-slate-400 hover:text-blue-400 hover:bg-blue-500/20 transition-all duration-300"
@@ -110,7 +110,7 @@ export function Footer() {
                     </div>
                   </div>
                   <a
-                    href="https://www.linkedin.com/in/enoch-oluwumi-62aa34382/"
+                    href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors"
