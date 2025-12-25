@@ -7,6 +7,7 @@ import { AboutSection } from "@/components/about-section"
 import { B3Section } from "@/components/b3-section"
 import { ServicesSection } from "@/components/services-section"
 import { ContactSection } from "@/components/contact-section"
+import { NewsletterSection } from "@/components/newsletter-section"
 import { Footer } from "@/components/footer"
 import { NavigationHandler } from "@/components/navigation-handler"
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
@@ -83,6 +84,9 @@ export default function HomePage() {
           </section>
           <section id="contact">
             <ContactSection />
+          </section>
+          <section id="newsletter">
+            <NewsletterSection />
           </section>
           <Footer />
         </main>

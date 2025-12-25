@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-emerald-900">
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-slate-900 to-purple-900">
         <div className="absolute inset-0 opacity-50"></div>
       </div>
 
@@ -18,12 +18,12 @@ export function Footer() {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-4 mb-6">
-                <div className="relative h-12 w-12 rounded-xl bg-gradient-to-br from-emerald-500 to-blue-500 p-2">
+                <div className="relative h-12 w-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-500 p-2">
                   <Image src="/images/b9-logo-main.png" alt="B9TECH Logo" fill className="object-contain p-1" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-white">B9TECH CONSULTS</h3>
-                  <p className="text-emerald-400 font-medium">Ethical AI Solutions</p>
+                  <p className="text-blue-400 font-medium">Ethical AI Solutions</p>
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed mb-8 max-w-md">
@@ -75,6 +75,11 @@ export function Footer() {
                     Custom AI Development
                   </a>
                 </li>
+                <li>
+                  <a href="#newsletter" className="hover:text-blue-400 transition-colors">
+                    Daily AI Insights Newsletter
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -95,7 +100,7 @@ export function Footer() {
                 {/* CEO Section with New Photo */}
                 <div className="mt-6 pt-4 border-t border-white/20">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-emerald-400">
+                    <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-blue-400">
                       <Image
                         src="/images/enoch-footer.jpg"
                         alt="Enoch Oluwumi"
@@ -106,7 +111,7 @@ export function Footer() {
                     </div>
                     <div>
                       <p className="text-white font-medium text-sm">Enoch Oluwumi</p>
-                      <p className="text-emerald-400 text-xs">Co-founder & CEO</p>
+                      <p className="text-blue-400 text-xs">Co-founder & CEO</p>
                     </div>
                   </div>
                   <a
@@ -141,8 +146,8 @@ export function Footer() {
           </div>
 
           <div className="text-center mt-12">
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 px-6 py-3 rounded-full border border-emerald-400/30">
-              <span className="text-emerald-300 font-medium">Proudly Nigerian</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 px-6 py-3 rounded-full border border-blue-400/30">
+              <span className="text-blue-300 font-medium">Proudly Nigerian</span>
               <span className="text-slate-400">•</span>
               <span className="text-slate-400">Building Technology for Good</span>
               <span className="text-slate-400">•</span>

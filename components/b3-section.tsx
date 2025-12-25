@@ -28,23 +28,23 @@ export function B3Section() {
   return (
     <section id="b3" className="py-20 px-6 relative overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-emerald-900">
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-slate-900 to-purple-900">
         <div className="absolute inset-0 opacity-20"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md px-6 py-3 rounded-full border border-white/20 mb-8">
+          <div className="inline-flex items-center gap-3 glass px-6 py-3 rounded-full border border-white/20 mb-8">
             <div className="relative h-8 w-8">
               <Image src="/images/b3-logo.png" alt="B3 Logo" fill className="object-contain" />
             </div>
             <span className="text-white font-semibold">Flagship Innovation</span>
-            <Sparkles className="h-4 w-4 text-emerald-400" />
+            <Sparkles className="h-4 w-4 text-blue-400" />
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white font-heading">
             B3:{" "}
-            <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               BringBackBarter
             </span>
           </h2>
@@ -56,8 +56,8 @@ export function B3Section() {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Platform Showcase */}
-          <Card className="border-0 shadow-2xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md border border-white/20 overflow-hidden">
-            <CardHeader className="bg-gradient-to-r from-emerald-500/20 to-blue-500/20 backdrop-blur-md border-b border-white/20">
+          <Card className="glass border-white/20 shadow-2xl overflow-hidden">
+            <CardHeader className="glass border-b border-white/20">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                   <div className="relative h-16 w-16">
@@ -66,7 +66,7 @@ export function B3Section() {
                   <div>
                     <CardTitle className="text-2xl text-white">BringBackBarter</CardTitle>
                     <div className="flex items-center gap-2 mt-2">
-                      <Badge className="bg-emerald-500 hover:bg-emerald-600 text-white">Live Platform</Badge>
+                      <Badge className="bg-blue-500 hover:bg-blue-600 text-white animate-pulse-neon">Live Platform</Badge>
                       <Badge variant="outline" className="border-white/30 text-white">
                         AI-Powered
                       </Badge>
@@ -79,37 +79,37 @@ export function B3Section() {
             <CardContent className="p-8 space-y-8">
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-white/10 rounded-xl backdrop-blur-sm">
+                <div className="text-center p-6 glass rounded-xl">
                   <div className="flex items-center justify-center mb-3">
-                    <Users className="h-8 w-8 text-emerald-400" />
+                    <Users className="h-8 w-8 text-blue-400 animate-float" />
                   </div>
                   <div className="text-3xl font-bold text-white">
                     <AnimatedCounter end={200} />+
                   </div>
-                  <div className="text-sm text-slate-300">Active Traders</div>
+                  <div className="text-sm text-slate-400">Active Traders</div>
                 </div>
-                <div className="text-center p-6 bg-white/10 rounded-xl backdrop-blur-sm">
+                <div className="text-center p-6 glass rounded-xl">
                   <div className="flex items-center justify-center mb-3">
-                    <Repeat className="h-8 w-8 text-blue-400" />
+                    <Repeat className="h-8 w-8 text-purple-400 animate-float" style={{ animationDelay: '0.2s' }} />
                   </div>
                   <div className="text-3xl font-bold text-white">
                     <AnimatedCounter end={150} />+
                   </div>
-                  <div className="text-sm text-slate-300">Successful Trades</div>
+                  <div className="text-sm text-slate-400">Successful Trades</div>
                 </div>
-                <div className="text-center p-6 bg-white/10 rounded-xl backdrop-blur-sm">
+                <div className="text-center p-6 glass rounded-xl">
                   <div className="flex items-center justify-center mb-3">
-                    <TrendingUp className="h-8 w-8 text-amber-400" />
+                    <TrendingUp className="h-8 w-8 text-pink-400 animate-float" style={{ animationDelay: '0.4s' }} />
                   </div>
                   <div className="text-3xl font-bold text-white">₦0</div>
-                  <div className="text-sm text-slate-300">Cash Required</div>
+                  <div className="text-sm text-slate-400">Cash Required</div>
                 </div>
               </div>
 
               {/* CTA */}
               <div className="space-y-4">
                 <Button
-                  className="w-full bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-semibold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                  className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-glow"
                   asChild
                 >
                   <a href="https://b9tech.africa" target="_blank" rel="noopener noreferrer">
@@ -150,12 +150,13 @@ export function B3Section() {
             ].map((feature, index) => (
               <Card
                 key={index}
-                className="border-0 shadow-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
+                className="glass border-white/20 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 animate-float"
+                style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div
-                      className={`w-12 h-12 bg-gradient-to-br ${feature.gradient} rounded-xl flex items-center justify-center shadow-lg flex-shrink-0`}
+                      className={`w-12 h-12 bg-gradient-to-br ${feature.gradient} rounded-xl flex items-center justify-center shadow-lg flex-shrink-0 animate-glow`}
                     >
                       <feature.icon className="h-6 w-6 text-white" />
                     </div>
