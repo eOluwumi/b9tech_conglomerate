@@ -96,7 +96,7 @@ export function ContactSection() {
                 <div className="flex items-center gap-6 p-6">
                   <div className="relative w-20 h-20 rounded-full overflow-hidden ring-4 ring-blue-400/50">
                     <Image
-                      src="/images/enoch-portrait.jpg"
+                      src="/public/images/enoch-ceo.jpg"
                       alt="Enoch Oluwumi"
                       fill
                       className="object-cover object-center"
@@ -114,7 +114,7 @@ export function ContactSection() {
                     asChild
                   >
                     <a
-                      href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/"
+                      href="https://www.linkedin.com/in/enoch-oluwumi-b075a2386/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
