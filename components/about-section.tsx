@@ -103,7 +103,7 @@ export function AboutSection() {
                 className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white animate-glow"
                 asChild
               >
-                <a href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/enoch-oluwumi-b075a2386/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   Connect on LinkedIn
                 </a>
@@ -111,7 +111,7 @@ export function AboutSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="glass border-white/20 text-white hover:bg-white/10"
+                className="glass border-white/20 text-white hover:bg-white/10 bg-transparent"
               >
                 <Mail className="mr-2 h-5 w-5" />
                 Send Message

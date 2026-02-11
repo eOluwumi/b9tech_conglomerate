@@ -22,7 +22,7 @@ export function Footer() {
   }
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/", label: "LinkedIn", color: "hover:text-blue-400 hover:bg-blue-500/20" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/enoch-oluwumi-b075a2386/", label: "LinkedIn", color: "hover:text-blue-400 hover:bg-blue-500/20" },
     { icon: Twitter, href: "#", label: "Twitter", color: "hover:text-sky-400 hover:bg-sky-500/20" },
     { icon: Github, href: "#", label: "GitHub", color: "hover:text-gray-300 hover:bg-gray-500/20" },
     { icon: Youtube, href: "#", label: "YouTube", color: "hover:text-red-400 hover:bg-red-500/20" },
@@ -133,7 +133,7 @@ export function Footer() {
                       <p className="text-blue-400 text-xs">Co-founder & CEO</p>
                     </div>
                   </div>
-                  <a href="https://www.linkedin.com/in/oluwumi-zion-6a4aaa2a9/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/enoch-oluwumi-b075a2386/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors">
                     <Linkedin className="h-4 w-4" />
                     Connect on LinkedIn
                   </a>
