@@ -22,7 +22,7 @@ export function Footer() {
   }
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/enoch-oluwumi-b075a2386/", label: "LinkedIn", color: "hover:text-blue-400 hover:bg-blue-500/20" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/b9tech", label: "Company LinkedIn", color: "hover:text-blue-400 hover:bg-blue-500/20" },
     { icon: Twitter, href: "#", label: "Twitter", color: "hover:text-sky-400 hover:bg-sky-500/20" },
     { icon: Github, href: "#", label: "GitHub", color: "hover:text-gray-300 hover:bg-gray-500/20" },
     { icon: Youtube, href: "#", label: "YouTube", color: "hover:text-red-400 hover:bg-red-500/20" },
@@ -123,8 +123,14 @@ export function Footer() {
                 </p>
                 <p>Lagos, Nigeria 🇳🇬</p>
 
-                <div className="mt-6 pt-4 border-t border-white/20">
-                  <div className="flex items-center gap-3 mb-3">
+                <div className="mt-6 pt-4 border-t border-white/20 space-y-4">
+                  <div>
+                    <a href="https://www.linkedin.com/company/b9tech" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors group">
+                      <Linkedin className="h-4 w-4 group-hover:animate-pulse" />
+                      Follow on LinkedIn
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-3">
                     <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-blue-400 animate-pulse-glow">
                       <Image src="/public/images/enoch-ceo.jpg" alt="Enoch Oluwumi" fill className="object-cover object-center" style={{ objectPosition: "50% 30%" }} />
                     </div>
