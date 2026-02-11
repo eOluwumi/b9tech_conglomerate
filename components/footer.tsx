@@ -132,7 +132,7 @@ export function Footer() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-blue-400 animate-pulse-glow">
-                      <Image src="/public/images/enoch-ceo.jpg" alt="Enoch Oluwumi" fill className="object-cover object-center" style={{ objectPosition: "50% 30%" }} />
+                      <Image src="/images/enoch-ceo.jpg" alt="Enoch Oluwumi" fill className="object-cover object-center" style={{ objectPosition: "50% 30%" }} />
                     </div>
                     <div>
                       <p className="text-white font-medium text-sm">Enoch Oluwumi</p>
