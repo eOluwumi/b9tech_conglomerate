@@ -1,5 +1,7 @@
 "use client"
 
+import React from "react"
+
 import { Separator } from "@/components/ui/separator"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -124,7 +126,7 @@ export function Footer() {
                 <div className="mt-6 pt-4 border-t border-white/20">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-blue-400 animate-pulse-glow">
-                      <Image src="/images/enoch-footer.jpg" alt="Enoch Oluwumi" fill className="object-cover object-center" style={{ objectPosition: "50% 20%" }} />
+                      <Image src="/public/images/enoch-ceo.jpg" alt="Enoch Oluwumi" fill className="object-cover object-center" style={{ objectPosition: "50% 30%" }} />
                     </div>
                     <div>
                       <p className="text-white font-medium text-sm">Enoch Oluwumi</p>
@@ -145,7 +147,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
               <p className="text-slate-400 text-sm">
-                © 2025 B9TECH CONSULTS. Made with <Heart className="inline h-4 w-4 text-red-400 animate-pulse" /> in Nigeria.
+                © 2026 B9TECH CONSULTS. Made with <Heart className="inline h-4 w-4 text-red-400 animate-pulse" /> in Nigeria.
               </p>
             </div>
             <div className="flex items-center gap-8 text-sm">

@@ -96,7 +96,7 @@ export function ContactSection() {
                 <div className="flex items-center gap-6 p-6">
                   <div className="relative w-20 h-20 rounded-full overflow-hidden ring-4 ring-blue-400/50">
                     <Image
-                      src="/images/enoch-portrait.jpg"
+                      src="/public/images/enoch-ceo.jpg"
                       alt="Enoch Oluwumi"
                       fill
                       className="object-cover object-center"
